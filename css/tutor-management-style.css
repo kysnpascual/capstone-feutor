@@ -57,9 +57,23 @@
 /*
     General Table Style
 */
-.custom-table thead th {
-    white-space: nowrap; /* Prevent text from wrapping */
-}
+
+    /* Updated CSS for the table */
+    .custom-table {
+        width: 100%;
+        table-layout: auto; /* Allow columns to adjust width based on content */
+    }
+
+    .custom-table th, .custom-table td {
+        white-space: normal; /* Allow text wrapping */
+        word-wrap: break-word; /* Break long words */
+        overflow: visible; /* Show overflow content */
+    }
+
+    /* Optional: Add some padding for readability */
+    .custom-table th, .custom-table td {
+        padding: 10px;
+    }
 
 /*
 *
@@ -142,6 +156,10 @@
 /*
     BUTTONS STYLE
 */
+
+/* SAVE CHANGES BUTTON */
+
+/* DELETE  BUTTON */
 .approved-table .btn {
     border-radius: 20px; /* Rounded corners */
     border: 2px solid; /* Border thickness */

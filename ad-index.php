@@ -1,9 +1,3 @@
-<?php
-// Start session
-session_start();
-
-include('php/ad-auth.php');
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +29,7 @@ include('php/ad-auth.php');
         <thead>
         <!-- New Row for the Title -->
         <tr class="title-row">
-            <th colspan="8" class="text-center">PENDING STUDENT TUTORS</th> <!-- Adjust colspan to match the number of columns -->
+            <th colspan="9" class="text-center">PENDING STUDENT TUTORS</th> <!-- Adjust colspan to match the number of columns -->
         </tr>
             <tr>
                 <th>Tutor ID</th>
@@ -44,7 +38,8 @@ include('php/ad-auth.php');
                 <th>Email</th>
                 <th>Degree Program / Level of Highschool</th>
                 <th>Year</th>
-                <th>G-Drive Link</th>
+                <th>G-Drive Link</th>   
+                <th>Assign Subject</th>
                 <th>Action</th>
             </tr>
         </thead>

@@ -1,3 +1,15 @@
+/* Assign Subjects */
+select {
+    color: #000 !important; /* Ensure the text is black */
+    background-color: #fff !important; /* White background */
+}
+
+option {
+    color: #000 !important; /* Text color for options */
+    background-color: #fff !important; /* Background for dropdown items */
+}
+
+
 /* Base button style */
 .btn {
     border-radius: 20px; /* Rounded corners */

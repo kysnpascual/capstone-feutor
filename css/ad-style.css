@@ -54,10 +54,6 @@
 /*
     General Table Style
 */
-.custom-table thead th {
-    white-space: nowrap; /* Prevent text from wrapping */
-}
-
 /*TABLE BODY STYLE*/
 
 /*TABLE ROWS STYLE*/
@@ -180,3 +176,15 @@
 .custom-table .btn {
     height: 40px; /* Adjust height as needed */
 }
+
+select {
+    color: #000 !important; /* Ensure the text is black */
+    background-color: #fff !important; /* White background */
+}
+
+option {
+    color: #000 !important; /* Text color for options */
+    background-color: #fff !important; /* Background for dropdown items */
+}
+
+
